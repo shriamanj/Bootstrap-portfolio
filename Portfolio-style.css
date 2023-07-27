@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.first{
+    background-color: black;
+    height: 760px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+.box{
+    height: 250px;
+    width: 360px;
+    margin-top: 40px;
+}
+.Rect-box{
+    height: 200px;
+    width: 420px;
+    margin-top: 40px;
+}
+.model{
+    height: 200px;
+    width: 250px;
+    border: 1px dashed white;
+}
+.img{
+    height: 250px;
+    width: 345px;
+    background-size: cover;
+}
+.crausal-button{
+    height: 5px;
+    width: 30px;
+    border: none;
+    background-color: black;
+    margin: 0px 8px 0px 8px;
+}
+@media (min-width: 991px) { 
+    .navabr-mb{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+ }
+ 
+ @media (max-width: 768px) { 
+    .footer{
+        justify-content: center !important;
+    }
+ }
